@@ -1,8 +1,8 @@
 import "./App.css";
-import MyShaderMaterial from "./components/MyShaderMaterial";
+import WaterShader from "./components/WaterShader";
 import React from "react";
 
 const App = () => {
-  return <MyShaderMaterial />;
+  return <WaterShader />;
 };
 export default App;
