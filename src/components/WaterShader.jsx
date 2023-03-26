@@ -14,9 +14,15 @@ const WaterShader = () => {
 
   const uniforms = {
     uTime: { value: 0 },
+
     uBigWavesElevation: { value: 0.2 },
     uBigWavesFrequency: { value: new Vector2(4.0, 1.5) },
-    uBigWavesSpeed: { value: 0.55 },
+    uBigWavesSpeed: { value: 0.4 },
+
+    uDepthColor: { value: new Color("#186691") },
+    uSurfaceColor: { value: new Color("#9bd8ff") },
+    uColorOffset: { value: 0.2 },
+    uColorMultiplier: { value: 5 },
   };
 
   // Using the time to animate the shader
