@@ -19,6 +19,11 @@ const WaterShader = () => {
     uBigWavesFrequency: { value: new Vector2(4.0, 1.5) },
     uBigWavesSpeed: { value: 0.4 },
 
+    uSmallWavesElevation: { value: 0.15 },
+    uSmallWavesFrequency: { value: 3 },
+    uSmallWavesSpeed: { value: 0.2 },
+    uSmallWavesIterations: { value: 4.0 },
+
     uDepthColor: { value: new Color("#186691") },
     uSurfaceColor: { value: new Color("#9bd8ff") },
     uColorOffset: { value: 0.2 },
