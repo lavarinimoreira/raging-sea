@@ -13,5 +13,11 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         <App />
       </mesh>
     </Canvas>
+    <footer className="footer">
+      Built by{" "}
+      <a href="https://lavarinimoreira.me" rel="noreferrer" target="_blank">
+        Gabriel Lavarini
+      </a>
+    </footer>
   </div>
 );
